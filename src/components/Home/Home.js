@@ -1,21 +1,22 @@
 import { Col, Container, Row } from "react-bootstrap";
 import homeMain from "../../assets/home-main.svg";
+import "./Home.scss";
 
 const Home = () => {
 	return (
-		<div>
+		<div className="home">
 			<Container>
-				<Row>
+				<Row className="align-items-center">
 					<Col md={7}>
-						<h1>
-							Hi There! <span className="wave">👋🏻</span>
+						<h1 className="home__heading">
+							Hi There! <span className="home__wave">👋🏻</span>
 						</h1>
 
-						<h1>
-							I'm <span className="name">Austin Wang</span>
+						<h1 className="home__heading">
+							I'm <span className="home__name">Austin Wang</span>
 						</h1>
 
-						<p>
+						<p className="home_roles">
 							MERN Stack Developer
 							<br />
 							Open Source Contributor
@@ -26,7 +27,7 @@ const Home = () => {
 						<img
 							src={homeMain}
 							alt="Coder is programming"
-							style={{ maxHeight: "450px" }}
+							className="home__img"
 						/>
 					</Col>
 				</Row>

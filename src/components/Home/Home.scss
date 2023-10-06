@@ -1,0 +1,10 @@
+.home {
+	font-size: 1.6rem;
+	padding: 10rem;
+
+	&__img {
+		width: 115%;
+		height: 115%;
+		object-fit: cover;
+	}
+}

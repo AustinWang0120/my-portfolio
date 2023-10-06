@@ -6,10 +6,11 @@ import {
 	AiOutlineProject,
 	AiOutlineFileText,
 } from "react-icons/ai";
+import "./Navbar.scss";
 
 const Navigation = () => {
 	return (
-		<Navbar bg="light" expand="lg">
+		<Navbar bg="light" expand="lg" className="navbar">
 			<Navbar.Brand as={Link} to="/">
 				Austin Wang
 			</Navbar.Brand>
