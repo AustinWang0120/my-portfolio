@@ -1,0 +1,26 @@
+.navbar {
+	font-size: 2rem;
+	padding: 0 3rem;
+
+	&__items {
+		list-style: none;
+
+		// layout
+		display: flex;
+	}
+
+	&__logo:link,
+	&__logo:visited {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	&__item {
+	}
+
+	&__link:link,
+	&__link:visited {
+		text-decoration: none;
+		color: inherit;
+	}
+}

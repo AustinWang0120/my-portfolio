@@ -1,6 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import homeMain from "../../assets/home-main.svg";
-import "./Home.scss";
+import homeMain from "../assets/home-main.svg";
 
 const Home = () => {
 	return (

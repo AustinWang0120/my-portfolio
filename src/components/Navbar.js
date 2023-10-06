@@ -6,7 +6,6 @@ import {
 	AiOutlineProject,
 	AiOutlineFileText,
 } from "react-icons/ai";
-import "./Navbar.scss";
 
 const Navigation = () => {
 	// return (
@@ -36,39 +35,33 @@ const Navigation = () => {
 
 	return (
 		<nav className="navbar">
-			<div className="navbar__container">
-				<Link to="/" className="navbar__logo">
-					Austin Wang
-				</Link>
-
-				<div className="navbar__toggle" id="mobile-menu">
-					<span className="bar"></span> <span className="bar"></span>
-					<span className="bar"></span>
-				</div>
-
-				<ul className="navbar__menu">
-					<li className="navbar__item">
-						<Link to="/" className="navbar__links" id="home-page">
-							<AiOutlineHome /> Home
-						</Link>
-					</li>
-					<li className="navbar__item">
-						<Link to="/about" className="navbar__links" id="about-page">
-							<AiOutlineUser /> About
-						</Link>
-					</li>
-					<li className="navbar__item">
-						<Link to="/projects" className="navbar__links" id="projects-page">
-							<AiOutlineProject /> Projects
-						</Link>
-					</li>
-					<li className="navbar__btn">
-						<Link to="/resume" className="button" id="resume-page">
-							<AiOutlineFileText /> Resume
-						</Link>
-					</li>
-				</ul>
-			</div>
+			<ul className="navbar__items">
+				<li className="navbar__logo">
+					<Link to="/" className="navbar__logo" id="logo">
+						Austin Wang
+					</Link>
+				</li>
+				<li className="navbar__item">
+					<Link to="/" className="navbar__link" id="home-page">
+						<AiOutlineHome /> Home
+					</Link>
+				</li>
+				<li className="navbar__item">
+					<Link to="/about" className="navbar__link" id="about-page">
+						<AiOutlineUser /> About
+					</Link>
+				</li>
+				<li className="navbar__item">
+					<Link to="/projects" className="navbar__link" id="projects-page">
+						<AiOutlineProject /> Projects
+					</Link>
+				</li>
+				<li className="navbar__item">
+					<Link to="/resume" className="navbar__link" id="resume-page">
+						<AiOutlineFileText /> Resume
+					</Link>
+				</li>
+			</ul>
 		</nav>
 	);
 };
