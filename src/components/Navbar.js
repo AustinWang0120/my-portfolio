@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
+import {
+	AiOutlineHome,
+	AiOutlineUser,
+	AiOutlineProject,
+	AiOutlineFileText,
+} from "react-icons/ai";
 
 const Navigation = () => {
 	return (
@@ -11,16 +17,16 @@ const Navigation = () => {
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ms-auto">
 					<Nav.Link as={Link} to="/">
-						Home
+						<AiOutlineHome /> Home
 					</Nav.Link>
 					<Nav.Link as={Link} to="/about">
-						About
+						<AiOutlineUser /> About
 					</Nav.Link>
 					<Nav.Link as={Link} to="/projects">
-						Projects
+						<AiOutlineProject /> Projects
 					</Nav.Link>
 					<Nav.Link as={Link} to="/resume">
-						Resume
+						<AiOutlineFileText /> Resume
 					</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
