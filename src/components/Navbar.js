@@ -1,24 +1,31 @@
 import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
-const Navbar = () => {
+const Navigation = () => {
 	return (
-		<nav>
-			<ul>
-				<li>
-					<Link to="/">Home</Link>
-				</li>
-				<li>
-					<Link to="/about">About</Link>
-				</li>
-				<li>
-					<Link to="/projects">Projects</Link>
-				</li>
-				<li>
-					<Link to="/resume">Resume</Link>
-				</li>
-			</ul>
-		</nav>
+		<Navbar bg="light" expand="lg">
+			<Navbar.Brand as={Link} to="/">
+				Austin Wang
+			</Navbar.Brand>
+			<Navbar.Toggle aria-controls="basic-navbar-nav" />
+			<Navbar.Collapse id="basic-navbar-nav">
+				<Nav className="ms-auto">
+					<Nav.Link as={Link} to="/">
+						Home
+					</Nav.Link>
+					<Nav.Link as={Link} to="/about">
+						About
+					</Nav.Link>
+					<Nav.Link as={Link} to="/projects">
+						Projects
+					</Nav.Link>
+					<Nav.Link as={Link} to="/resume">
+						Resume
+					</Nav.Link>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
 	);
 };
 
-export default Navbar;
+export default Navigation;

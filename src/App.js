@@ -4,13 +4,13 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navbar";
 
 const App = () => {
 	return (
 		<Router>
 			<div className="App">
-				<Navbar />
+				<Navigation />
 
 				<Routes>
 					<Route index element={<Home />} />
