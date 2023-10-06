@@ -2,9 +2,37 @@
 	font-size: 1.6rem;
 	padding: 10rem;
 
+	// layout
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10rem;
+	align-items: center;
+
+	&__content {
+	}
+
+	&__heading {
+		font-size: 6rem;
+
+		&:nth-child(1) {
+			margin-bottom: 2rem;
+		}
+
+		&:nth-child(2) {
+			margin-bottom: 6rem;
+		}
+	}
+
+	&__description {
+		font-size: 5rem;
+		font-weight: 200;
+	}
+
 	&__img {
-		width: 115%;
-		height: 115%;
-		object-fit: cover;
+		img {
+			width: 50rem;
+			height: auto;
+			object-fit: cover;
+		}
 	}
 }

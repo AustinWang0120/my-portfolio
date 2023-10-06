@@ -1,21 +1,28 @@
 .navbar {
 	font-size: 2rem;
-	padding: 0 3rem;
+	padding: 2rem 6rem;
 
 	&__items {
 		list-style: none;
 
 		// layout
 		display: flex;
-	}
-
-	&__logo:link,
-	&__logo:visited {
-		text-decoration: none;
-		color: inherit;
+		align-items: center;
 	}
 
 	&__item {
+		&:first-child {
+			margin-right: auto;
+		}
+
+		&:not(:first-child):not(:last-child) {
+			margin-right: 2rem;
+		}
+	}
+
+	&__logo {
+		width: 4rem;
+		height: auto;
 	}
 
 	&__link:link,
