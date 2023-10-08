@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 import {
 	AiOutlineHome,
 	AiOutlineUser,
@@ -9,35 +10,29 @@ import logo from "../assets/logo.png";
 
 const Navigation = () => {
 	return (
-		<nav className="navbar">
-			<ul className="navbar__items">
-				<li className="navbar__item">
-					<Link to="/" className="navbar__link">
-						<img src={logo} alt="Logo" className="navbar__logo" />
-					</Link>
-				</li>
-				<li className="navbar__item">
-					<Link to="/" className="navbar__link">
+		<Navbar bg="light" expand="lg" className="navbar px-5">
+			<Navbar.Brand as={Link} to="/">
+				{/* <img src={logo} alt="Logo" className="navbar__logo img-fluid" /> */}
+				Austin Wang
+			</Navbar.Brand>
+			<Navbar.Toggle aria-controls="basic-navbar-nav" />
+			<Navbar.Collapse id="basic-navbar-nav">
+				<Nav className="navbar__items ms-auto">
+					<Nav.Link as={Link} to="/" className="navbar__item">
 						<AiOutlineHome /> Home
-					</Link>
-				</li>
-				<li className="navbar__item">
-					<Link to="/about" className="navbar__link">
+					</Nav.Link>
+					<Nav.Link as={Link} to="/about" className="navbar__item">
 						<AiOutlineUser /> About
-					</Link>
-				</li>
-				<li className="navbar__item">
-					<Link to="/projects" className="navbar__link">
+					</Nav.Link>
+					<Nav.Link as={Link} to="/projects" className="navbar__item">
 						<AiOutlineProject /> Projects
-					</Link>
-				</li>
-				<li className="navbar__item">
-					<Link to="/resume" className="navbar__link">
+					</Nav.Link>
+					<Nav.Link as={Link} to="/resume" className="navbar__item">
 						<AiOutlineFileText /> Resume
-					</Link>
-				</li>
-			</ul>
-		</nav>
+					</Nav.Link>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
 	);
 };
 

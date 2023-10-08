@@ -1,49 +1,56 @@
+import { Container, Row, Col, Image } from "react-bootstrap";
 import homeMain from "../assets/home-main.svg";
 import homeAvatar from "../assets/avatar.svg";
+import Contact from "../components/Contact";
 
 const Home = () => {
 	return (
-		<div className="home">
-			<div className="home__introduction">
-				<h1 className="home__heading">
-					Hi There! <span className="home__wave">👋🏻</span>
-				</h1>
+		<Container className="p-5">
+			<Row className="align-items-center">
+				<Col md={6}>
+					<h1>
+						Hi There! <span className="wave">👋🏻</span>
+					</h1>
 
-				<h1 className="home__heading">
-					I'm <span className="home__name">Austin Wang</span>
-				</h1>
+					<h1>
+						I'm <span className="name">Austin Wang</span>
+					</h1>
 
-				<p className="home__roles">
-					MERN Stack Developer
-					<br />
-					Open Source Contributor
-				</p>
-			</div>
+					<p>
+						MERN Stack Developer
+						<br />
+						Open Source Contributor
+					</p>
+				</Col>
 
-			<div className="home__img">
-				<img src={homeMain} alt="Home main" />
-			</div>
+				<Col md={6}>
+					<Image src={homeMain} alt="Coder is programming" fluid />
+				</Col>
+			</Row>
 
-			<div className="home__description">
-				<h1 className="home__heading">Let Me Introduce Myself</h1>
-				<p className="home__paragraph">
-					I fell in love with programming and I have at least learnt something,
-					I think… 🤷‍♂️
-				</p>
-				<p className="home__paragraph">
-					My field of interest's are building new web technologies products
-				</p>
-				<p className="home__paragraph">
-					Whenever possible, I also apply my passion for developing products
-					with Node.js and Modern Javascript Library and Frameworks like
-					React.js and Next.js
-				</p>
-			</div>
+			<Row>
+				<Col md={8}>
+					<h1>Let Me Introduce Myself</h1>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+					<p>
+						Vitae quo ducimus nisi itaque aliquid, labore modi delectus possimus
+						exercitationem ea aliquam hic ut.
+					</p>
+					<p>
+						Distinctio quisquam velit necessitatibus excepturi tempore autem.
+					</p>
+				</Col>
 
-			<div className="home__avatar">
-				<img src={homeAvatar} alt="Home avatar" />
-			</div>
-		</div>
+				<Col
+					md={4}
+					className="d-flex align-items-center justify-content-center"
+				>
+					<Image src={homeAvatar} alt="Avatar" fluid />
+				</Col>
+			</Row>
+
+			<Contact />
+		</Container>
 	);
 };
 
