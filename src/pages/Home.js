@@ -43,7 +43,7 @@ const Home = () => {
 
 				<Col
 					md={4}
-					className="d-flex align-items-center justify-content-center"
+					className="d-flex justify-content-center align-items-center"
 				>
 					<Image src={homeAvatar} alt="Avatar" fluid />
 				</Col>

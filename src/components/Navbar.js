@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Image } from "react-bootstrap";
 import {
 	AiOutlineHome,
 	AiOutlineUser,
@@ -12,8 +12,7 @@ const Navigation = () => {
 	return (
 		<Navbar bg="light" expand="lg" className="navbar px-5">
 			<Navbar.Brand as={Link} to="/">
-				{/* <img src={logo} alt="Logo" className="navbar__logo img-fluid" /> */}
-				Austin Wang
+				<Image src={logo} alt="Logo" fluid />
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
