@@ -1,0 +1,14 @@
+.nav {
+	font-size: 2.5rem;
+	padding: 2.5rem 5rem;
+
+	&__img {
+		max-height: 3rem;
+	}
+
+	&__item {
+		&:not(:last-child) {
+			margin-right: 2rem;
+		}
+	}
+}

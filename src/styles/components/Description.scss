@@ -1,0 +1,21 @@
+.description {
+	justify-content: center;
+	align-items: center;
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+
+		& > .heading {
+			align-self: center;
+		}
+	}
+
+	&__img-col {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

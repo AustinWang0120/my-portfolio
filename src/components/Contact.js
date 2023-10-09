@@ -3,14 +3,14 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 const Contact = () => {
 	return (
-		<Row className="justify-content-center">
-			<Col className="d-flex flex-column justify-content-center align-items-center">
-				<h1>Feel Free to Connect With Me</h1>
+		<Row className="contact">
+			<Col className="contact__column">
+				<h1 className="heading">Feel Free to Connect With Me</h1>
 
-				<div>
-					<AiFillGithub />
-					<AiFillLinkedin />
-					<AiFillMail />
+				<div className="contact__icons">
+					<AiFillGithub size={80} className="contact__icon" />
+					<AiFillLinkedin size={80} className="contact__icon" />
+					<AiFillMail size={80} className="contact__icon" />
 				</div>
 			</Col>
 		</Row>

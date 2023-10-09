@@ -10,23 +10,23 @@ import logo from "../assets/logo.png";
 
 const Navigation = () => {
 	return (
-		<Navbar bg="light" expand="lg" className="navbar px-5">
-			<Navbar.Brand as={Link} to="/">
-				<Image src={logo} alt="Logo" fluid />
+		<Navbar bg="light" expand="lg" className="nav">
+			<Navbar.Brand as={Link} to="/" className="nav__brand">
+				<Image src={logo} alt="Logo" fluid className="nav__img" />
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
-				<Nav className="navbar__items ms-auto">
-					<Nav.Link as={Link} to="/" className="navbar__item">
+				<Nav className="nav__items ms-auto">
+					<Nav.Link as={Link} to="/" className="nav__item">
 						<AiOutlineHome /> Home
 					</Nav.Link>
-					<Nav.Link as={Link} to="/about" className="navbar__item">
+					<Nav.Link as={Link} to="/about" className="nav__item">
 						<AiOutlineUser /> About
 					</Nav.Link>
-					<Nav.Link as={Link} to="/projects" className="navbar__item">
+					<Nav.Link as={Link} to="/projects" className="nav__item">
 						<AiOutlineProject /> Projects
 					</Nav.Link>
-					<Nav.Link as={Link} to="/resume" className="navbar__item">
+					<Nav.Link as={Link} to="/resume" className="nav__item">
 						<AiOutlineFileText /> Resume
 					</Nav.Link>
 				</Nav>
