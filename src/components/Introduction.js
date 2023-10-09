@@ -23,7 +23,7 @@ const Introduction = () => {
 			<Col md={6} className="introduction__img-col">
 				<Image
 					src={homeMain}
-					alt="Coder is programming"
+					alt="Main page image"
 					fluid
 					className="introduction__img"
 				/>

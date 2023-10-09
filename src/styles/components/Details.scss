@@ -1,0 +1,22 @@
+.details {
+	margin-bottom: 8rem;
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+
+		& > .heading {
+			align-self: center;
+		}
+	}
+
+	&__list {
+		list-style: none;
+	}
+
+	&__icon {
+		margin-right: 1rem;
+	}
+}
