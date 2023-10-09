@@ -1,8 +1,12 @@
+import Layout from "../components/Layout";
+
 const Projects = () => {
 	return (
-		<div>
-			<h1>Projects</h1>
-		</div>
+		<Layout>
+			<div className="project">
+				<h1>Projects</h1>
+			</div>
+		</Layout>
 	);
 };
 
