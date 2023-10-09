@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 const Footer = () => {
 	return (
-		<Container>
+		<Container fluid>
 			<Row className="footer">
 				<Col md={4} className="footer__credits">
 					<p className="paragraph">
