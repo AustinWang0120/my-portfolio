@@ -5,7 +5,9 @@ const Description = () => {
 	return (
 		<Row className="description">
 			<Col md={8} className="description__text">
-				<h1 className="heading">Let Me Introduce Myself</h1>
+				<h1 className="heading">
+					Let Me <span className="purple-text">Introduce</span> Myself
+				</h1>
 				<p className="paragraph">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 				</p>

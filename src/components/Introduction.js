@@ -10,10 +10,10 @@ const Introduction = () => {
 				</h1>
 
 				<h1 className="heading">
-					I'm <span className="name">Austin Wang</span>
+					I'm <span className="purple-text">Austin Wang</span>
 				</h1>
 
-				<p className="paragraph">
+				<p className="paragraph purple-text">
 					MERN Stack Developer
 					<br />
 					Open Source Contributor

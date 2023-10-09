@@ -5,7 +5,9 @@ const Contact = () => {
 	return (
 		<Row className="contact">
 			<Col className="contact__column">
-				<h1 className="heading">Feel Free to Connect With Me</h1>
+				<h1 className="heading">
+					Feel Free to <span className="purple-text">Connect</span> With Me
+				</h1>
 
 				<div className="contact__icons">
 					<AiFillGithub size={80} className="contact__icon" />

@@ -2,8 +2,12 @@
 	font-size: 2.5rem;
 	padding: 2.5rem 5rem;
 
-	&__img {
+	&__logo {
 		max-height: 3rem;
+	}
+
+	&__items {
+		margin-left: auto;
 	}
 
 	&__item {
