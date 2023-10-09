@@ -1,27 +1,43 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
+import CustomLoading from "./CustomLoading";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const AllPages = ({ resumePdf }) => {
 	const [numPages, setNumPages] = useState(null);
+	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
 	const onDocumentLoadSuccess = ({ numPages }) => {
 		setNumPages(numPages);
 	};
 
+	const handleResize = () => {
+		setWindowWidth(window.innerWidth);
+		console.log(window.innerWidth);
+	};
+
+	useEffect(() => {
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
 	return (
-		<Document file={resumePdf} onLoadSuccess={onDocumentLoadSuccess}>
+		<Document
+			file={resumePdf}
+			loading={<CustomLoading />}
+			onLoadSuccess={onDocumentLoadSuccess}
+		>
 			{Array.from(new Array(numPages), (el, index) => (
-				<Row>
+				<Row key={`page_${index + 1}`}>
 					<Col>
 						<Page
-							key={`page_${index + 1}`}
 							renderTextLayer={false}
 							renderAnnotationLayer={false}
-							customTextRenderer={false}
 							pageNumber={index + 1}
+							scale={windowWidth > 768 ? 1 : 0.5}
+							className="d-flex justify-content-center"
 						/>
 					</Col>
 				</Row>
