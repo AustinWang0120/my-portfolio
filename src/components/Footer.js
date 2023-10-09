@@ -6,8 +6,12 @@ const Footer = () => {
 		<Container>
 			<Row className="footer">
 				<Col md={4} className="footer__credits">
-					<p className="paragraph">Designed by Soumyajit Behera</p>
-					<p className="paragraph">Developed by Austin Wang</p>
+					<p className="paragraph">
+						Designed by <span className="purple-text">Soumyajit Behera</span>
+					</p>
+					<p className="paragraph">
+						Developed by <span className="purple-text">Austin Wang</span>
+					</p>
 				</Col>
 
 				<Col md={4} className="footer__copyright">
