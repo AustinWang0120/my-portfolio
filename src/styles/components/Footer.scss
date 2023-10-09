@@ -1,23 +1,27 @@
-.description {
+.footer {
 	justify-content: center;
 	align-items: center;
 
-	margin-bottom: 8rem;
-
-	&__text {
+	&__credits {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
-
-		& > .heading {
-			align-self: center;
-		}
 	}
 
-	&__img-col {
+	&__copyright {
+		text-align: center;
+	}
+
+	&__icons {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+
+	&__icon {
+		&:not(:last-child) {
+			margin-right: 2rem;
+		}
 	}
 }
