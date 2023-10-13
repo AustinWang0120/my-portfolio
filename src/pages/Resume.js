@@ -15,12 +15,6 @@ const Resume = () => {
 				/>
 
 				<AllPages resumePdf={resumePdf} />
-
-				<DownloadButton
-					file={resumePdf}
-					filename="Austin-Wang-SDE-Resume.pdf"
-					text="Download Resume"
-				/>
 			</Container>
 		</Layout>
 	);

@@ -28,6 +28,7 @@ const AllPages = ({ resumePdf }) => {
 			file={resumePdf}
 			loading={<CustomLoading />}
 			onLoadSuccess={onDocumentLoadSuccess}
+			className={"pdf-container"}
 		>
 			{Array.from(new Array(numPages), (el, index) => (
 				<Row key={`page_${index + 1}`}>

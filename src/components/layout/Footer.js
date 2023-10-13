@@ -7,10 +7,10 @@ const Footer = () => {
 			<Row className="footer">
 				<Col md={4} className="footer__credits">
 					<p className="paragraph">
-						Designed by <span className="purple-text">Soumyajit Behera</span>
+						Developed by <span className="purple-text">Austin Wang</span>
 					</p>
 					<p className="paragraph">
-						Developed by <span className="purple-text">Austin Wang</span>
+						Designed by <span className="purple-text">Soumyajit Behera</span>
 					</p>
 				</Col>
 
