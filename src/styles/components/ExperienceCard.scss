@@ -82,8 +82,7 @@
 		text-decoration: underline;
 		font-size: 1.4rem;
 
-		&:hover,
-		&:active {
+		&:hover {
 			background-color: transparent;
 			color: $color-primary-dark;
 		}
