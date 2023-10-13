@@ -6,13 +6,29 @@ const Contact = () => {
 		<Row className="contact">
 			<Col className="contact__column">
 				<h1 className="heading">
-					Feel Free to <span className="purple-text">Connect</span> With Me
+					<span className="purple-text">Find</span> Me On
 				</h1>
 
 				<div className="contact__icons">
-					<AiFillGithub size={80} className="contact__icon" />
-					<AiFillLinkedin size={80} className="contact__icon" />
-					<AiFillMail size={80} className="contact__icon" />
+					<a
+						href="https://github.com/AustinWang0120"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="contact__icon"
+					>
+						<AiFillGithub size={20} />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/austinwang0120/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="contact__icon"
+					>
+						<AiFillLinkedin size={20} />
+					</a>
+					<a href="mailto:yyaustin@bu.edu" className="contact__icon">
+						<AiFillMail size={20} />
+					</a>
 				</div>
 			</Col>
 		</Row>

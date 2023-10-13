@@ -1,4 +1,5 @@
 import { Row, Col, Image } from "react-bootstrap";
+import Typewriter from "typewriter-effect";
 import homeMain from "../assets/home-main.svg";
 
 const Introduction = () => {
@@ -13,10 +14,18 @@ const Introduction = () => {
 					I'm <span className="purple-text">Austin Wang</span>
 				</h1>
 
-				<p className="paragraph purple-text">
-					MERN Stack Developer
-					<br />
-					Open Source Contributor
+				<p className="sub-heading purple-text">
+					<Typewriter
+						options={{
+							strings: [
+								"Software Developer",
+								"Full Stack Developer",
+								"Open Source Contributor",
+							],
+							autoStart: true,
+							loop: true,
+						}}
+					/>
 				</p>
 			</Col>
 

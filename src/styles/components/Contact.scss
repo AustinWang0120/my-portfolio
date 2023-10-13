@@ -6,7 +6,24 @@
 		align-items: center;
 	}
 
+	&__icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	&__icon {
-		max-height: 3rem;
+		background-color: $color-grey-light;
+		padding: 1rem;
+		border: 1px solid $color-primary;
+		border-radius: 50%;
+
+		&:not(:last-child) {
+			margin-right: 2rem;
+		}
+
+		& > * {
+			fill: $color-primary;
+		}
 	}
 }

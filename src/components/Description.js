@@ -9,14 +9,25 @@ const Description = () => {
 					Let Me <span className="purple-text">Introduce</span> Myself
 				</h1>
 				<p className="paragraph">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+					<span className="purple-text">Over 3 years</span> of experience in{" "}
+					<span className="purple-text">JavaScript Full Stack Development</span>
+					.
 				</p>
 				<p className="paragraph">
-					Vitae quo ducimus nisi itaque aliquid, labore modi delectus possimus
-					exercitationem ea aliquam hic ut.
+					Fuelled by <span className="purple-text">passion and creativity</span>
+					, I thrive on <span className="purple-text">crafting solutions</span>{" "}
+					that <span className="purple-text">empower and uplift</span>.
 				</p>
 				<p className="paragraph">
-					Distinctio quisquam velit necessitatibus excepturi tempore autem.
+					For me, every line of code is a step closer to{" "}
+					<span className="purple-text">making an impact</span> and{" "}
+					<span className="purple-text">easing someone's journey</span>.
+				</p>
+				<p className="paragraph">
+					In every project, I see an{" "}
+					<span className="purple-text">opportunity</span>, not just to{" "}
+					<span className="purple-text">innovate</span>, but to{" "}
+					<span className="purple-text">inspire and ignite change</span>.
 				</p>
 			</Col>
 

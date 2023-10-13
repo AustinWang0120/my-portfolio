@@ -12,6 +12,11 @@
 
 		& > .heading {
 			align-self: center;
+			margin-bottom: 3rem;
+		}
+
+		& > .paragraph:not(:last-child) {
+			margin-bottom: 3rem;
 		}
 	}
 
