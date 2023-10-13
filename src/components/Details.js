@@ -10,32 +10,45 @@ const Details = () => {
 					Know Who <span className="purple-text">I'm</span>
 				</h1>
 				<p className="paragraph">
-					Hi Everyone, I am <span className="purple-text">Austin Wang</span>,
-					graduated from <span className="purple-text">Boston University</span>.
+					Hi Everyone, I am <span className="purple-text">Austin Wang</span>{" "}
+					from <span className="purple-text">Guangzhou, China</span>.
 				</p>
 				<p className="paragraph">
-					Eius natus hic quidem, odit perferendis dicta corporis consectetur
-					aliquam ipsum consequuntur accusamus maxime vero, exercitationem
-					debitis voluptatibus, dolores non minus recusandae.
+					I'm a proud graduate from{" "}
+					<span className="purple-text">Boston University</span> with a
+					bachelor's degree in Computer Science, specializing in{" "}
+					<span className="purple-text">
+						full-stack web application development
+					</span>
+					.
+				</p>
+				<p className="paragraph">
+					Passionately exploring <span className="purple-text">AI tools</span>,
+					I aim to be at the forefront, maximizing their potential to{" "}
+					<span className="purple-text">enhance my work</span>.
 				</p>
 				<p className="paragraph">Apart from coding, I love to do</p>
 				<ul className="details__list">
-					<li className="details__item">
+					<li className="paragraph details__item">
 						<ImPointRight className="details__icon" />
 						Basketball & Workout
 					</li>
-					<li className="details__item">
+					<li className="paragraph details__item">
 						<ImPointRight className="details__icon" />
-						Magic Tricks
+						Reading Books & News
 					</li>
-					<li className="details__item">
+					<li className="paragraph details__item">
 						<ImPointRight className="details__icon" />
-						Reading
+						Learning Magic Tricks
+					</li>
+					<li className="paragraph details__item">
+						<ImPointRight className="details__icon" />
+						Making New Friends
 					</li>
 				</ul>
 			</Col>
 
-			<Col md={6}>
+			<Col md={6} className="details__img">
 				<Image
 					src={aboutMain}
 					alt="About page image"

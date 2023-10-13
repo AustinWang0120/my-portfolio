@@ -1,5 +1,7 @@
 .details {
 	margin-bottom: 8rem;
+	justify-content: center;
+	align-items: center;
 
 	&__text {
 		display: flex;
@@ -9,6 +11,11 @@
 
 		& > .heading {
 			align-self: center;
+			margin-bottom: 3rem;
+		}
+
+		& > .paragraph:not(:nth-child(5)) {
+			margin-bottom: 3rem;
 		}
 	}
 
@@ -17,6 +24,7 @@
 	}
 
 	&__icon {
+		fill: $color-primary;
 		margin-right: 1rem;
 	}
 }
