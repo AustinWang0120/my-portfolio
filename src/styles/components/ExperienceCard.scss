@@ -1,0 +1,103 @@
+// .experience-card {
+// 	&__header {
+// 		display: flex;
+// 		justify-content: space-between;
+// 		align-items: center;
+// 	}
+
+// 	&__logo {
+// 		max-width: 10rem;
+// 	}
+
+// 	&__text {
+// 		display: flex;
+// 		flex-direction: column;
+// 		justify-content: space-between;
+// 		align-items: flex-end;
+// 	}
+// }
+.experience-card {
+	background-color: $color-white;
+	border: 1px solid $color-grey-light;
+	border-radius: 0.5rem;
+	box-shadow: 0 2rem 4rem rgba($color-black, 0.1);
+	margin-bottom: 6rem;
+	overflow: hidden;
+
+	&__header {
+		background: linear-gradient(
+			to right,
+			rgba($color-primary, 0.45),
+			rgba($color-primary-light, 0.45)
+		);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 2rem;
+	}
+
+	&__logo {
+		width: 8rem;
+		height: 8rem;
+		margin-right: 2rem;
+		border: 2px solid $color-primary;
+		border-radius: 50%;
+	}
+
+	&__title {
+		font-size: 2rem;
+		color: $color-primary-dark;
+		margin-bottom: 1rem;
+	}
+
+	&__date {
+		font-size: 1.6rem;
+		font-weight: 600;
+		color: $color-white;
+		margin-bottom: 1rem;
+	}
+
+	&__project,
+	&__project-description {
+		font-size: 1.6rem;
+		color: $color-black;
+		margin-bottom: 1rem;
+	}
+
+	&__body {
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__button {
+		background-color: transparent;
+		border: none;
+		color: $color-primary;
+		padding: 1rem 0;
+		cursor: pointer;
+		transition: all 0.2s;
+		text-decoration: underline;
+		font-size: 1.4rem;
+
+		&:hover,
+		&:active {
+			background-color: transparent;
+			color: $color-primary-dark;
+		}
+	}
+
+	&__duties {
+		margin-top: 2rem;
+	}
+
+	&__duty {
+		background-color: $color-grey-light;
+		border: none;
+		padding: 1rem;
+		border-radius: 0.5rem;
+		margin-bottom: 1rem;
+	}
+}

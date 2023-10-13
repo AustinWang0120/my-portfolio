@@ -16,29 +16,41 @@ const ExperienceCard = ({
 	};
 
 	return (
-		<Card className="mb-3">
-			<Card.Header>
-				<div className="d-flex align-items-center">
-					<Image src={logo} alt={"Company logo"} className="mr-3" rounded />
-					<div>
-						<Card.Title>{title}</Card.Title>
-						<Card.Subtitle className="mb-2 text-muted">{date}</Card.Subtitle>
-						<Card.Text>{project}</Card.Text>
-						<Card.Text>{projectDescription}</Card.Text>
-					</div>
+		<Card className="experience-card">
+			<Card.Header className="experience-card__header">
+				<Image
+					src={logo}
+					alt={"Company logo"}
+					roundedCircle
+					className="experience-card__logo"
+				/>
+				<div className="experience-card__text">
+					<Card.Title className="experience-card__title">{title}</Card.Title>
+					<Card.Subtitle className="experience-card__date">
+						{date}
+					</Card.Subtitle>
+					<Card.Text className="experience-card__project">{project}</Card.Text>
+					<Card.Text className="experience-card__project-description">
+						{projectDescription}
+					</Card.Text>
 				</div>
 			</Card.Header>
-			<Card.Body>
-				<Button onClick={handleToggleDetails}>
-					{showDetails ? "Hide Details" : "More Details"}
-				</Button>
+			<Card.Body className="experience-card__body">
 				{showDetails && (
-					<ListGroup className="mt-3">
+					<ListGroup className="experience-card__duties">
 						{duties.map((duty, index) => (
-							<ListGroup.Item key={index}>{duty}</ListGroup.Item>
+							<ListGroup.Item key={index} className="experience-card__duty">
+								{duty}
+							</ListGroup.Item>
 						))}
 					</ListGroup>
 				)}
+				<Button
+					onClick={handleToggleDetails}
+					className="experience-card__button"
+				>
+					{showDetails ? "Hide Details" : "More Details"}
+				</Button>
 			</Card.Body>
 		</Card>
 	);
