@@ -1,6 +1,6 @@
 import { Row, Col, Image } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
-import homeMain from "../assets/home-main.svg";
+import homeMain from "../../assets/home-main.svg";
 
 const Introduction = () => {
 	return (

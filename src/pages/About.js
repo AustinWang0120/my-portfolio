@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
 import Layout from "../layouts/Layout";
-import Details from "../components/Details";
-import SkillSet from "../components/SkillSet";
-import Tools from "../components/Tools";
+import Details from "../components/about/Details";
+import SkillSet from "../components/about/SkillSet";
+import Tools from "../components/about/Tools";
 
 const About = () => {
 	return (

@@ -1,7 +1,7 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import resumePdf from "../assets/Austin-Wang-SDE-Resume.pdf";
-import AllPages from "../components/AllPages";
-import DownloadButton from "../components/DownloadButton";
+import AllPages from "../components/resume/AllPages";
+import DownloadButton from "../components/resume/DownloadButton";
 import Layout from "../layouts/Layout";
 
 const Resume = () => {

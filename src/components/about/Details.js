@@ -1,6 +1,6 @@
 import { Col, Row, Image } from "react-bootstrap";
 import { ImPointRight } from "react-icons/im";
-import aboutMain from "../assets/about-main.png";
+import aboutMain from "../../assets/about-main.png";
 
 const Details = () => {
 	return (

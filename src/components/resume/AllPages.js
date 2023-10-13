@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
-import CustomLoading from "./CustomLoading";
+import CustomLoading from "../helper/CustomLoading";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 

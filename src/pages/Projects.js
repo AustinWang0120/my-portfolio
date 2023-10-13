@@ -1,11 +1,12 @@
+import { Container } from "react-bootstrap";
 import Layout from "../layouts/Layout";
 
 const Projects = () => {
 	return (
 		<Layout>
-			<div className="project">
+			<Container className="projects">
 				<h1>Projects</h1>
-			</div>
+			</Container>
 		</Layout>
 	);
 };

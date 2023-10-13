@@ -1,5 +1,5 @@
 import { Row, Col, Image } from "react-bootstrap";
-import homeAvatar from "../assets/home-avatar.svg";
+import homeAvatar from "../../assets/home-avatar.svg";
 
 const Description = () => {
 	return (

@@ -23,6 +23,10 @@
 		list-style: none;
 	}
 
+	&__item {
+		font-style: italic;
+	}
+
 	&__icon {
 		fill: $color-primary;
 		margin-right: 1rem;
