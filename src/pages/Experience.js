@@ -1,14 +1,14 @@
 import { Container } from "react-bootstrap";
 import Layout from "../layouts/Layout";
 
-const Projects = () => {
+const Experience = () => {
 	return (
 		<Layout>
 			<Container className="projects">
-				<h1>Projects</h1>
+				<h1>Experience</h1>
 			</Container>
 		</Layout>
 	);
 };
 
-export default Projects;
+export default Experience;

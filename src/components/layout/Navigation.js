@@ -23,8 +23,8 @@ const Navigation = () => {
 					<Nav.Link as={Link} to="/about" className="nav__item">
 						<AiOutlineUser /> About
 					</Nav.Link>
-					<Nav.Link as={Link} to="/projects" className="nav__item">
-						<AiOutlineProject /> Projects
+					<Nav.Link as={Link} to="/experience" className="nav__item">
+						<AiOutlineProject /> Experience
 					</Nav.Link>
 					<Nav.Link as={Link} to="/resume" className="nav__item">
 						<AiOutlineFileText /> Resume
