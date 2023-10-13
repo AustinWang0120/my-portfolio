@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Austin Wang's Portfolio Website 👨‍💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React Version](https://img.shields.io/badge/React-v18.2.0-blue.svg)](https://reactjs.org)
+[![Bootstrap Version](https://img.shields.io/badge/Bootstrap-v5.3.2-orange.svg)](https://sass-lang.com)
+[![Deployed with Vercel](https://img.shields.io/badge/Deployed_with-Vercel-000000.svg)](https://vercel.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+Welcome to the repository of my personal portfolio website. This website showcases my skills, projects, and experiences in the field of web development. It's built using React, styled with SCSS, and structured with React Bootstrap for a responsive design. The site is deployed on Vercel and can be accessed [here](https://austin-wang-portfolio.vercel.app/).
 
-In the project directory, you can run:
+A special shoutout to [Soumyajit Behera](https://github.com/soumyajit4419) for the design inspiration. Although I developed and implemented the website, the design was referenced from Soumyajit's creative work. 🎨
 
-### `npm start`
+## Technologies Used 💻
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- React Bootstrap
+- SCSS
+- Vercel (for deployment)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features 🚀
 
-### `npm test`
+- Responsive design that adapts to different screen sizes
+- Dynamic rendering of project and experience details
+- Smooth navigation and scrolling experiences
+- Downloadable resume and preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Local Development 🛠
 
-### `npm run build`
+Follow these steps to run the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/your-username/austin-wang-portfolio.git
+   cd austin-wang-portfolio
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now, open `http://localhost:3000` in your browser to view the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment 🌐
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The website is deployed on Vercel. Any pushes to the main branch will trigger a new deployment, thanks to Vercel's GitHub integration.
 
-## Learn More
+## Contact 📬
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to reach out to me through the contact form on the website or via [LinkedIn](https://www.linkedin.com/in/austinwang0120/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License 📄
 
-### Code Splitting
+This project is open-source and available under the MIT License. Check out [LICENSE](./LICENSE) file for more details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out my portfolio! 🙏
