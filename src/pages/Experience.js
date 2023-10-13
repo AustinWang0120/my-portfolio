@@ -32,10 +32,17 @@ const Experience = () => {
 			<Container className="projects">
 				<Row>
 					<Col>
+						<h1 className="heading">
+							My recent <span className="purple-text">works</span>
+						</h1>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col>
 						<ExperienceCard
 							logo={antraLogo}
 							title={"Full Stack Developer"}
-							date={"Jun 2022 - Jun 2023"}
 							project={"PatUI Component Library Development"}
 							projectDescription={
 								"Actively participated in developing the PatUI web suite, focusing on creating reusable React components, refining styles with SCSS, and ensuring rigorous unit testing and CI/CD integration."
@@ -50,7 +57,6 @@ const Experience = () => {
 						<ExperienceCard
 							logo={bpdaLogo}
 							title={"Full Stack Developer"}
-							date={"Sep 2021 - May 2022"}
 							project={"Boston Streetwise Dashboard"}
 							projectDescription={
 								"Participated in developing an interactive map-based dashboard for Boston street management, encompassing front-end, backend, design collaboration, and secure authentication features."
@@ -65,7 +71,6 @@ const Experience = () => {
 						<ExperienceCard
 							logo={boardxLogo}
 							title={"Full Stack Developer"}
-							date={"May 2020 – May 2021"}
 							project={"Collaborative Digital Whiteboard"}
 							projectDescription={
 								"Assisted in building a dynamic homepage and a collaborative office feature using Meteor, Angular, and PostgreSQL, enhancing real-time multi-user interactions and broadening audience reach with bilingual support."

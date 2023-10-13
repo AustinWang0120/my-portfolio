@@ -1,35 +1,19 @@
-// .experience-card {
-// 	&__header {
-// 		display: flex;
-// 		justify-content: space-between;
-// 		align-items: center;
-// 	}
-
-// 	&__logo {
-// 		max-width: 10rem;
-// 	}
-
-// 	&__text {
-// 		display: flex;
-// 		flex-direction: column;
-// 		justify-content: space-between;
-// 		align-items: flex-end;
-// 	}
-// }
 .experience-card {
-	background-color: $color-white;
+	background-color: $color-grey-light;
 	border: 1px solid $color-grey-light;
 	border-radius: 0.5rem;
 	box-shadow: 0 2rem 4rem rgba($color-black, 0.1);
 	margin-bottom: 6rem;
 	overflow: hidden;
+	transition: all 0.2s;
+
+	&:hover {
+		transform: scale(1.02);
+		box-shadow: 0 3rem 6rem rgba($color-black, 0.2);
+	}
 
 	&__header {
-		background: linear-gradient(
-			to right,
-			rgba($color-primary, 0.45),
-			rgba($color-primary-light, 0.45)
-		);
+		background-color: $color-grey-light;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -44,28 +28,34 @@
 		border-radius: 50%;
 	}
 
-	&__title {
-		font-size: 2rem;
-		color: $color-primary-dark;
-		margin-bottom: 1rem;
+	&__text {
+		padding: 1.5rem;
+		border-left: 4px solid $color-primary;
 	}
 
-	&__date {
-		font-size: 1.6rem;
-		font-weight: 600;
-		color: $color-white;
+	&__title {
+		font-size: 2.5rem;
+		color: transparent;
+		background: linear-gradient(90deg, $color-primary, $color-primary-dark);
+		background-clip: text;
+		-webkit-background-clip: text;
+		display: inline-block;
 		margin-bottom: 1rem;
 	}
 
 	&__project,
 	&__project-description {
 		font-size: 1.6rem;
-		color: $color-black;
 		margin-bottom: 1rem;
 	}
 
+	&__project-description {
+		border-top: 1px dashed $color-primary;
+		padding-top: 1rem;
+	}
+
 	&__body {
-		padding: 1rem;
+		padding: 0 1rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -73,8 +63,6 @@
 	}
 
 	&__button {
-		background-color: transparent;
-		border: none;
 		color: $color-primary;
 		padding: 1rem 0;
 		cursor: pointer;
@@ -89,14 +77,26 @@
 	}
 
 	&__duties {
-		margin-top: 2rem;
+		max-height: 0;
+		overflow: hidden;
+		transition: all 0.5s ease-in-out;
+
+		&--show {
+			margin-top: 2rem;
+			max-height: 100vh;
+			background: linear-gradient(to right, $color-grey-light, $color-white);
+		}
 	}
 
 	&__duty {
-		background-color: $color-grey-light;
+		background-color: transparent;
 		border: none;
-		padding: 1rem;
-		border-radius: 0.5rem;
-		margin-bottom: 1rem;
+		padding: 1.5rem;
+		font-size: 1.4rem;
+		border-left: 4px solid $color-primary;
+
+		&:hover {
+			background-color: rgba($color-primary, 0.1);
+		}
 	}
 }

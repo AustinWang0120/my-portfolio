@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Card, Button, ListGroup, Image } from "react-bootstrap";
+import { Card, ListGroup, Image } from "react-bootstrap";
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 const ExperienceCard = ({
 	logo,
 	title,
-	date,
 	project,
 	projectDescription,
 	duties,
@@ -26,9 +26,6 @@ const ExperienceCard = ({
 				/>
 				<div className="experience-card__text">
 					<Card.Title className="experience-card__title">{title}</Card.Title>
-					<Card.Subtitle className="experience-card__date">
-						{date}
-					</Card.Subtitle>
 					<Card.Text className="experience-card__project">{project}</Card.Text>
 					<Card.Text className="experience-card__project-description">
 						{projectDescription}
@@ -36,21 +33,30 @@ const ExperienceCard = ({
 				</div>
 			</Card.Header>
 			<Card.Body className="experience-card__body">
-				{showDetails && (
-					<ListGroup className="experience-card__duties">
-						{duties.map((duty, index) => (
-							<ListGroup.Item key={index} className="experience-card__duty">
-								{duty}
-							</ListGroup.Item>
-						))}
-					</ListGroup>
-				)}
-				<Button
-					onClick={handleToggleDetails}
-					className="experience-card__button"
+				<ListGroup
+					className={`experience-card__duties ${
+						showDetails ? "experience-card__duties--show" : ""
+					}`}
 				>
-					{showDetails ? "Hide Details" : "More Details"}
-				</Button>
+					{duties.map((duty, index) => (
+						<ListGroup.Item key={index} className="experience-card__duty">
+							{duty}
+						</ListGroup.Item>
+					))}
+				</ListGroup>
+				<div onClick={handleToggleDetails} className="experience-card__button">
+					{showDetails ? (
+						<span>
+							Hide details
+							<AiOutlineArrowUp />
+						</span>
+					) : (
+						<span>
+							More details
+							<AiOutlineArrowDown />
+						</span>
+					)}
+				</div>
 			</Card.Body>
 		</Card>
 	);
