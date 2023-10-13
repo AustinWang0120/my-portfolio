@@ -1,0 +1,8 @@
+Dove deep into modern front-end development, understanding the intricacies of frameworks such as Next.js for server-side rendering, Vue.js for reactive UI, and advanced styling techniques with SCSS and BEM methodology.
+Contributed to the development of the PatUI project, assisting in creating efficient, reusable, and maintainable UI components using React with Hooks and Context API.
+Supported the team's decision to adopt SCSS as a CSS pre-processor, helping in the utilization of variables, mixins, and nested rules to enhance stylesheet maintainability and modularity.
+Assisted in maintaining strict code quality by participating in unit tests using tools like Jest, React Testing Library, and Enzyme to validate component behaviors and user interactions.
+Participated in the CI/CD process, aiding in the integration of Jenkins and Docker to ensure consistent and error-free deployments across different stages.
+Worked alongside UX/UI designers to convert design mockups from Figma and Adobe XD into interactive web pages, striving for accuracy in design implementation.
+Collaborated with the team using Git and platforms like GitHub, facilitating code reviews, and supporting seamless feature integrations.
+Engaged in weekly agile ceremonies, actively participating in sprint planning, stand-ups, and retrospectives, providing feedback and ensuring that tasks were progressing as planned.

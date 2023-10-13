@@ -1,0 +1,7 @@
+Contributed to front-end development using React with Hooks and Redux for state management; employed Tailwind CSS with PostCSS plugins for efficient styling.
+Worked closely with an intern designer, assisting in refining design concepts and turning mock-ups created in Figma into interactive web components.
+Engaged in backend development, using Node with Express, and integrated MongoDB for efficient data storage and retrieval; ensured data integrity with Mongoose ODM.
+Assisted in implementing user authentication and authorization processes, leveraging JWT for token-based authentication and Bcrypt for secure password hashing.
+Played a role in deploying and monitoring the application on Heroku, ensuring smooth operation and handling any potential scalability concerns.
+Actively took part in regular code reviews, optimizing application performance and ensuring adherence to best coding practices using tools like ESLint and Prettier.
+Participated in agile development processes, attending daily stand-ups, and collaborating effectively with team members to address project hurdles.

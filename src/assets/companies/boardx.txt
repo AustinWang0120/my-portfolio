@@ -1,0 +1,5 @@
+Participated in the development of the company homepage using Meteor with Angular, incorporating a responsive design using Material UI components.
+Assisted in the integration of the i18n library, enabling dynamic homepage translation between English and Chinese, ensuring a broader audience reach.
+Engaged in the design and implementation of real-time data models in PostgreSQL, powering a collaborative office feature that enhances teamwork.
+Worked alongside the team to utilize Angular, leveraging websockets for real-time mouse tracking, facilitating seamless multi-user collaborative editing experiences.
+Regularly received constructive feedback and mentorship from senior developers and the founder, delving deeper into advanced code optimization techniques and understanding the latest industry best practices.
