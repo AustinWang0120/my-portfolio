@@ -70,8 +70,8 @@ const Experience = () => {
 					<Col>
 						<ExperienceCard
 							logo={boardxLogo}
-							title={"Full Stack Developer"}
-							project={"Collaborative Digital Whiteboard"}
+							title={"Front End Developer"}
+							project={"AI Collaborative Digital Whiteboard"}
 							projectDescription={
 								"Assisted in building a dynamic homepage and a collaborative office feature using Meteor, Angular, and PostgreSQL, enhancing real-time multi-user interactions and broadening audience reach with bilingual support."
 							}
