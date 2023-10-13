@@ -30,8 +30,8 @@ const Experience = () => {
 	return (
 		<Layout>
 			<Container className="projects">
-				<Row>
-					<Col>
+				<Row className="mb-5">
+					<Col className="text-center">
 						<h1 className="heading">
 							My recent <span className="purple-text">works</span>
 						</h1>

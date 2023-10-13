@@ -36,7 +36,7 @@ const AllPages = ({ resumePdf }) => {
 							renderTextLayer={false}
 							renderAnnotationLayer={false}
 							pageNumber={index + 1}
-							scale={windowWidth > 768 ? 1 : 0.5}
+							scale={windowWidth > 768 ? 1.2 : 0.5}
 							className="d-flex justify-content-center"
 						/>
 					</Col>

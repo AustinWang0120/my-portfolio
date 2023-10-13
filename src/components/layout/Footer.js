@@ -19,9 +19,25 @@ const Footer = () => {
 				</Col>
 
 				<Col md={4} className="footer__icons">
-					<AiFillGithub size={40} className="footer__icon" />
-					<AiFillLinkedin size={40} className="footer__icon" />
-					<AiFillMail size={40} className="footer__icon" />
+					<a
+						href="https://github.com/AustinWang0120"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="footer__icon"
+					>
+						<AiFillGithub size={20} />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/austinwang0120/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="footer__icon"
+					>
+						<AiFillLinkedin size={20} />
+					</a>
+					<a href="mailto:yyaustin@bu.edu" className="footer__icon">
+						<AiFillMail size={20} />
+					</a>
 				</Col>
 			</Row>
 		</Container>
