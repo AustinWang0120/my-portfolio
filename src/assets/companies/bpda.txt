@@ -1,7 +1,16 @@
-Contributed to front-end development using React with Hooks and Redux for state management; employed Tailwind CSS with PostCSS plugins for efficient styling.
-Worked closely with an intern designer, assisting in refining design concepts and turning mock-ups created in Figma into interactive web components.
-Engaged in backend development, using Node with Express, and integrated MongoDB for efficient data storage and retrieval; ensured data integrity with Mongoose ODM.
-Assisted in implementing user authentication and authorization processes, leveraging JWT for token-based authentication and Bcrypt for secure password hashing.
-Played a role in deploying and monitoring the application on Heroku, ensuring smooth operation and handling any potential scalability concerns.
-Actively took part in regular code reviews, optimizing application performance and ensuring adherence to best coding practices using tools like ESLint and Prettier.
-Participated in agile development processes, attending daily stand-ups, and collaborating effectively with team members to address project hurdles.
+Developed feature-rich web applications using React, focusing on hooks and context for state management, enhancing user interaction and application responsiveness.
+Extended Redux's capabilities to manage a centralized application state, ensuring sync across different components and efficient state updates.
+Adapted Tailwind CSS to craft intuitive and adaptive UI components, adhering to best practices for design consistency and cross-device compatibility.
+Engineered RESTful APIs with Node.js and Express, establishing a seamless data flow between front-end interfaces and the underlying databases.
+Employed MongoDB for optimal data management, utilizing mongoose for ORM capabilities and improving data schema designs.
+Maximized application performance by hosting it within AWS's ecosystem, leveraging services like EC2 for compute and Elastic Beanstalk for seamless deployment.
+Ensured tight security measures by integrating JWT and Bcrypt for both authentication and authorization, solidifying user trust.
+Dedicated efforts to achieve a high-quality codebase by enforcing Jest for comprehensive unit testing and using Cypress for vital end-to-end testing scenarios.
+Integrated sophisticated map visualization tools and third-party geolocation APIs, enhancing real-time geospatial tracking and reporting.
+Streamlined development workflow by incorporating GitHub Actions for CI/CD, automating build, test, and deployment tasks.
+Maintained codebase health by adhering to stringent review standards, and using automated linting and formatting tools like ESLint and Prettier.
+Actively participated in agile ceremonies including sprint planning, daily stand-ups, and retrospectives, ensuring efficient and iterative development cycles.
+Explored and introduced GraphQL as an alternative to REST, streamlining data requests and reducing over-fetching of data.
+Implemented caching mechanisms using Redis, reducing database calls and significantly speeding up frequent data retrieval operations.
+Interfaced with stakeholders and other tech teams, clarifying requirements and ensuring the application aligned well with user needs and expectations.
+Troubleshot and resolved application bottlenecks by utilizing profiling tools and refining the codebase, achieving smoother user experiences.

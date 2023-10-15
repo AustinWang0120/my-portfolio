@@ -1,5 +1,13 @@
-Participated in the development of the company homepage using Meteor with Angular, incorporating a responsive design using Material UI components.
-Assisted in the integration of the i18n library, enabling dynamic homepage translation between English and Chinese, ensuring a broader audience reach.
-Engaged in the design and implementation of real-time data models in PostgreSQL, powering a collaborative office feature that enhances teamwork.
-Worked alongside the team to utilize Angular, leveraging websockets for real-time mouse tracking, facilitating seamless multi-user collaborative editing experiences.
-Regularly received constructive feedback and mentorship from senior developers and the founder, delving deeper into advanced code optimization techniques and understanding the latest industry best practices.
+Conceived and developed feature-rich components using Meteor, Angular, and Material UI, ensuring responsiveness, high performance, and consistent user experience across devices.
+Refined the company homepage and its dynamic content by integrating the i18n library, enabling seamless language translation between English and Chinese, thereby widening its global outreach.
+Efficiently modeled real-time data in PostgreSQL, supporting instantaneous multi-user interactions and ensuring data consistency in the collaborative office feature.
+Architected and integrated a real-time mouse tracking mechanism using Angular, which elevated the platform's collaborative editing capabilities and user interactivity.
+Utilized WebSockets for immediate data push/pull, enhancing the real-time collaborative experience on the platform.
+Collaborated closely with junior developers, constantly assimilating fresh perspectives and advanced code optimization techniques, reinforcing the platform's efficiency and scalability.
+Engineered RESTful APIs using Express.js, ensuring smooth data flow between the frontend and the backend, optimizing server responses, and enabling feature extensions.
+Employed containerization tools like Docker to streamline deployment processes, thereby ensuring consistent environments from development to production.
+Optimized database queries and ensured ACID transactions in PostgreSQL, guaranteeing data reliability and performance in high concurrency scenarios.
+Strengthened application security through JWT-based authentication and role-based access control, safeguarding user data and company assets.
+Adopted CI/CD best practices using Jenkins, automating the deployment process and enhancing code quality through systematic testing and feedback loops.
+Proactively contributed to sprint planning and retrospectives, ensuring product deliverables align with business objectives and stakeholder expectations.
+Monitored application performance using tools like Grafana, identifying bottlenecks and ensuring optimal resource utilization.

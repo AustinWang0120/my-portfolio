@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import resumePdf from "../assets/Austin-Wang-SDE-Resume.pdf";
+import resumePdf from "../assets/Austin-W-Resume.pdf";
 import AllPages from "../components/resume/AllPages";
 import DownloadButton from "../components/resume/DownloadButton";
 import Layout from "../layouts/Layout";

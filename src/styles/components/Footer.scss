@@ -31,5 +31,16 @@
 		&:not(:last-child) {
 			margin-right: 2rem;
 		}
+
+		&--phone {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	&__phone-number {
+		margin-left: 0.5rem;
+		font-size: 1rem;
 	}
 }

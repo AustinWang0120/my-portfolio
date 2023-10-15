@@ -1,0 +1,13 @@
+Architected scalable solutions, embracing the power of microservices, to ensure high availability and responsiveness of the platform.
+Streamlined UI/UX, using React and Next.js, enhancing user journey, reducing bounce rate, and increasing overall user retention.
+Optimized the application's state management with Redux, incorporating middleware solutions for asynchronous operations.
+Leveraged advanced SCSS techniques and frameworks like Bootstrap and Tailwind CSS to ensure a consistent and intuitive design across devices.
+Enhanced data-driven components using GraphQL, ensuring efficient data consumption and reducing over-fetching.
+Led migration efforts, transitioning legacy systems to serverless architectures using AWS Lambda and AWS EKS, resulting in a more cost-effective and scalable infrastructure.
+Ensured data integrity by establishing secure RESTful API endpoints with Express.js, incorporating JWT for authentication and authorization.
+Adopted Docker and Kubernetes for containerization and orchestration, respectively, facilitating smooth deployments and rollbacks.
+Utilized CI/CD pipelines, primarily through Jenkins, to automate testing, building, and deployment processes, minimizing human errors.
+Fostered an iterative development approach, emphasizing Test-Driven Development (TDD) using Jest, React Testing Library, and Enzyme.
+Enhanced data persistence layers, working with both SQL databases like MySQL and NoSQL databases such as MongoDB, optimizing database queries and schema design.
+Assured the application's responsiveness under load by implementing caching solutions using Redis, thereby reducing database load and speeding up retrieval times.
+Collaborated with cross-functional teams, emphasizing clear communication and understanding of both technical and business requirements, resulting in successful on-time project completions.

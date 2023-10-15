@@ -14,13 +14,11 @@ const Details = () => {
 					from <span className="purple-text">Guangzhou, China</span>.
 				</p>
 				<p className="paragraph">
-					I'm a proud graduate from{" "}
-					<span className="purple-text">Boston University</span> with a
-					bachelor's degree in Computer Science, specializing in{" "}
-					<span className="purple-text">
-						full-stack web application development
-					</span>
-					.
+					With years of experience in the tech industry, I've honed my skills as
+					a <span className="purple-text">Senior Full Stack Developer</span>,
+					and crafting <span className="purple-text">scalable</span>,{" "}
+					<span className="purple-text">efficient</span>, and{" "}
+					<span className="purple-text">user-centric</span> web applications.
 				</p>
 				<p className="paragraph">
 					Passionately exploring <span className="purple-text">AI tools</span>,

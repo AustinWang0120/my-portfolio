@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { parseDuties } from "../utils/parseDuties";
 import Layout from "../layouts/Layout";
 import ExperienceCard from "../components/experience/ExperienceCard";
-import antraLogo from "../assets/companies/antra.jpeg";
-import antraDuties from "../assets/companies/antra.txt";
+import wayfairLogo from "../assets/companies/wayfair.jpeg";
+import wayfairDuties from "../assets/companies/wayfair.txt";
 import bpdaLogo from "../assets/companies/bpda.jpeg";
 import bpdaDuties from "../assets/companies/bpda.txt";
 import boardxLogo from "../assets/companies/boardx.jpeg";
@@ -17,7 +17,7 @@ const Experience = () => {
 
 	useEffect(() => {
 		Promise.all([
-			fetch(antraDuties).then(response => response.text()),
+			fetch(wayfairDuties).then(response => response.text()),
 			fetch(bpdaDuties).then(response => response.text()),
 			fetch(boardxDuties).then(response => response.text()),
 		]).then(([text1, text2, text3]) => {
@@ -41,11 +41,11 @@ const Experience = () => {
 				<Row>
 					<Col>
 						<ExperienceCard
-							logo={antraLogo}
-							title={"Full Stack Developer"}
-							project={"PatUI Component Library Development"}
+							logo={wayfairLogo}
+							title={"Senior Full-Stack Developer"}
+							project={"Enhanced E-commerce Experience"}
 							projectDescription={
-								"Actively participated in developing the PatUI web suite, focusing on creating reusable React components, refining styles with SCSS, and ensuring rigorous unit testing and CI/CD integration."
+								"Participated in the redesign of Wayfair's e-commerce platform, emphasizing a user-centric design, enhanced performance, and tighter integration with backend systems. Collaborated with cross-functional teams to identify areas for improvement, implement best practices, and integrate cutting-edge frontend and backend technologies."
 							}
 							duties={duties1}
 						/>
@@ -57,9 +57,9 @@ const Experience = () => {
 						<ExperienceCard
 							logo={bpdaLogo}
 							title={"Full Stack Developer"}
-							project={"Boston Streetwise Dashboard"}
+							project={"Urban Street Management System"}
 							projectDescription={
-								"Participated in developing an interactive map-based dashboard for Boston street management, encompassing front-end, backend, design collaboration, and secure authentication features."
+								"As a dedicated full-stack developer, my role encompassed both front-end and back-end development to support Boston's innovative street management solutions. This system was built to facilitate smoother urban planning and street management for Boston, providing real-time insights to street managers."
 							}
 							duties={duties2}
 						/>
@@ -70,10 +70,10 @@ const Experience = () => {
 					<Col>
 						<ExperienceCard
 							logo={boardxLogo}
-							title={"Front End Developer"}
-							project={"AI Collaborative Digital Whiteboard"}
+							title={"Full Stack Developer"}
+							project={"Real-time Collaborative Office Suite"}
 							projectDescription={
-								"Assisted in building a dynamic homepage and a collaborative office feature using Meteor, Angular, and PostgreSQL, enhancing real-time multi-user interactions and broadening audience reach with bilingual support."
+								"As a senior full-stack developer, I was involved in the seamless integration of front-end and back-end functionalities for the BoardX collaborative office suite. The platform facilitates real-time collaboration among users, with an emphasis on enhancing productivity and user engagement. Significant efforts were made to cater to a global audience, ensuring versatile language support and efficient real-time data synchronization."
 							}
 							duties={duties3}
 						/>
