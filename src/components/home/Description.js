@@ -9,7 +9,7 @@ const Description = () => {
 					Let Me <span className="purple-text">Introduce</span> Myself
 				</h1>
 				<p className="paragraph">
-					<span className="purple-text">Over 3 years</span> of experience in{" "}
+					<span className="purple-text">Over 5 years</span> of experience in{" "}
 					<span className="purple-text">JavaScript Full Stack Development</span>
 					.
 				</p>
