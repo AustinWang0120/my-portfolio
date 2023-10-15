@@ -1,10 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import {
-	AiFillPhone,
-	AiFillGithub,
-	AiFillLinkedin,
-	AiFillMail,
-} from "react-icons/ai";
+import { AiFillPhone, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 const Footer = () => {
 	return (
